@@ -1,8 +1,8 @@
 from datetime import datetime
 
 # Read the file
-file_path = 'datasets/open_meteo.csv'  # Replace 'data.txt' with your file path
-output_file_path = 'datasets/radiation_data.csv'  # Replace 'updated_data.txt' with your desired output file path
+file_path = 'datasets/open_weather.csv'  # Replace 'data.txt' with your file path
+output_file_path = 'datasets/daylight_duration.csv'  # Replace 'updated_data.txt' with your desired output file path
 
 with open(file_path, 'r') as file:
     lines = file.readlines()
